@@ -26,7 +26,7 @@ const PostItem: React.FC<PostItemProps> = ({ post }) => {
             <div className="relative mt-8 flex items-center gap-x-4">
               <div className="text-sm leading-6">
                 <p className="font-semibold text-gray-900">
-                  <span className="absolute inset-0" />
+                  <span className="absolute inset-0"></span>
                   {post.user.name}
                 </p>
                 <p className="text-gray-600">{post.user.username}</p>
